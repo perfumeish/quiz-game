@@ -20,7 +20,7 @@ def main():
         if choice == "1":
             game.play()
         elif choice == "2":
-            print("퀴즈 추가를 준비 중입니다.")
+            game.add_quiz()
         elif choice == "3":
             print("퀴즈 목록을 준비 중입니다.")
         elif choice == "4":
