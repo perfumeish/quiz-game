@@ -1,0 +1,6 @@
+# Python 실행 중 생성되는 파일
+__pycache__/
+*.pyc
+
+# 실행하면서 저장되는 개인 퀴즈와 점수
+state.json
