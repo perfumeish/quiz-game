@@ -6,6 +6,7 @@ from input_utils import read_text, read_number
 class QuizGame:
     def __init__(self):
         self.quizzes = create_default_quizzes()
+        self.best_score = None
 
     def play(self):
         if not self.quizzes:
@@ -29,6 +30,10 @@ class QuizGame:
         total = len(self.quizzes)
         score = round(correct_count / total * 100)
 
+
+        if self.best_score is None or score > self.best_score:
+            self.best_score = score
+            print("새로운 최고 점수입니다!")
         print(f"\n결과: {total}문제 중 {correct_count}문제 정답! ({score}점)")
 
     def add_quiz(self):
@@ -54,7 +59,15 @@ class QuizGame:
             return
 
         print(f"\n등록된 퀴즈 목록 (총 {len(self.quizzes)}개)")
-        
+
 
         for number, quiz in enumerate(self.quizzes, start=1):
             print(f"[{number}] {quiz.question}")
+
+
+
+    def show_score(self):
+        if self.best_score is None:
+            print("아직 완료한 게임이 없습니다.")
+        else:
+            print(f"최고 점수: {self.best_score}점 (100점 만점)")
