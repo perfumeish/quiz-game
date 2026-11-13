@@ -79,22 +79,31 @@ class QuizGame:
         else:
             print(f"최고 점수: {self.best_score}점 (100점 만점)")
 
-
     def save_state(self):
         data = {
             "quizzes": [quiz.to_dict() for quiz in self.quizzes],
             "best_score": self.best_score
         }
 
+        temp_path = self.state_path.with_name("state.json.tmp")
+
         try:
-            with self.state_path.open("w", encoding="utf-8") as file:
-                json.dump(data, file, ensure_ascii=False, indent=4)
+            with temp_path.open("w", encoding="utf-8") as file:
+                json.dump(
+                    data,
+                    file,
+                    ensure_ascii=False,
+                    indent=4
+                )
+
+            temp_path.replace(self.state_path)
+
         except OSError as error:
             print(f"데이터 저장에 실패했습니다: {error}")
             return False
 
         return True
-
+    
 
     def load_state(self):
         try:

@@ -7,3 +7,5 @@ state.json
 
 # 데이터 백업 및 복구 테스트 파일
 state.*.json
+# 저장 중 사용하는 임시 파일
+state.json.tmp
