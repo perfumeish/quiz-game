@@ -67,3 +67,23 @@ state.json과 테스트용 백업 파일은 Git에 포함하지 않습니다.
 - 파일 읽기 및 쓰기 실패 시 안내 메시지 출력
 ## Git 복제 실습
 별도 폴더에서 clone한 저장소의 README를 수정했습니다.
+
+## 실행 화면
+
+### 개발 환경
+![개발 환경](docs/screenshots/environment.png)
+
+### 퀴즈 추가
+![퀴즈 추가](docs/screenshots/add_quiz.png)
+
+### 퀴즈 목록
+![퀴즈 목록](docs/screenshots/list.png)
+
+### 퀴즈 풀이
+![퀴즈 풀이 결과](docs/screenshots/play.png)
+
+### 최고 점수
+![최고 점수](docs/screenshots/score.png)
+
+### Git 커밋 및 병합 기록
+![Git 기록](docs/screenshots/git-log.png)
