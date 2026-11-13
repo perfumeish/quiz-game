@@ -1,0 +1,19 @@
+ded13b4 HEAD@{2026-11-13 09:27:44 +0900}: commit: Docs: 기능 실행 화면과 개발 환경 및 Git 기록 스크린샷 추가
+ffdabbc HEAD@{2026-11-13 09:03:28 +0900}: pull --ff-only: Fast-forward
+9f56875 HEAD@{2026-11-13 08:58:03 +0900}: commit: Docs: 프로젝트 개요와 실행 방법 및 데이터 구조 설명 작성
+43bffd5 HEAD@{2026-11-13 08:56:31 +0900}: commit: Chore: 데이터 백업과 복구 테스트 파일을 Git 추적에서 제외
+5e8394e HEAD@{2026-11-13 08:48:25 +0900}: commit: Fix: Ctrl+C와 입력 스트림 종료 시 데이터 저장 후 안전 종료
+62cc941 HEAD@{2026-11-13 08:40:06 +0900}: commit: Feat: JSON 파일에 퀴즈와 최고 점수 저장 및 불러오기 구현
+3b08859 HEAD@{2026-11-13 00:48:16 +0900}: commit: Feat: 최고 점수 갱신과 조회 및 미플레이 상태 안내 구현
+37eb722 HEAD@{2026-11-13 00:33:27 +0900}: commit: Feat: 퀴즈 목록 조회와 빈 목록 안내 구현
+14ff816 HEAD@{2026-11-13 00:28:13 +0900}: commit: Feat: 영화 퀴즈 등록과 메뉴 연결 및 공통 입력 함수 적용
+9b2f763 HEAD@{2026-11-12 23:50:47 +0900}: commit: Feat: 빈 입력과 숫자 범위를 검증하는 공통 입력 함수 추가
+551198d HEAD@{2026-11-12 23:45:36 +0900}: merge feature/play: Merge made by the 'ort' strategy.
+f08220f HEAD@{2026-11-12 23:44:35 +0900}: checkout: moving from feature/play to main
+34e8e03 HEAD@{2026-11-12 23:38:41 +0900}: commit: Feat: 퀴즈 풀이와 점수 계산 및 메뉴 연결 구현
+f08220f HEAD@{2026-11-12 23:33:03 +0900}: checkout: moving from main to feature/play
+f08220f HEAD@{2026-11-12 23:32:39 +0900}: commit: Feat: 영화 주제의 기본 퀴즈 5개 추가
+92aef8a HEAD@{2026-11-12 23:23:46 +0900}: commit: Feat: Quiz 클래스와 문제 출력 및 정답 확인 구현
+69ca2d8 HEAD@{2026-11-12 23:18:56 +0900}: commit: Feat: 메뉴 선택과 잘못된 입력 처리 및 종료 구현
+79c5279 HEAD@{2026-11-12 23:00:44 +0900}: commit (amend): Chore: 프로젝트 소개와 Git 제외 파일 설정
+1260b1e HEAD@{2026-11-12 22:48:56 +0900}: commit (initial): Chore: 프로젝트 소개와 Git 제외 파일 설정

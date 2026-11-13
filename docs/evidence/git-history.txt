@@ -1,0 +1,21 @@
+origin	https://github.com/perfumeish/quiz-game.git (fetch)
+origin	https://github.com/perfumeish/quiz-game.git (push)
+16
+* ded13b4 Docs: 기능 실행 화면과 개발 환경 및 Git 기록 스크린샷 추가
+* ffdabbc Docs: 복제한 저장소에서 Git 실습 내용 추가
+* 9f56875 Docs: 프로젝트 개요와 실행 방법 및 데이터 구조 설명 작성
+* 43bffd5 Chore: 데이터 백업과 복구 테스트 파일을 Git 추적에서 제외
+* 5e8394e Fix: Ctrl+C와 입력 스트림 종료 시 데이터 저장 후 안전 종료
+* 62cc941 Feat: JSON 파일에 퀴즈와 최고 점수 저장 및 불러오기 구현
+* 3b08859 Feat: 최고 점수 갱신과 조회 및 미플레이 상태 안내 구현
+* 37eb722 Feat: 퀴즈 목록 조회와 빈 목록 안내 구현
+* 14ff816 Feat: 영화 퀴즈 등록과 메뉴 연결 및 공통 입력 함수 적용
+* 9b2f763 Feat: 빈 입력과 숫자 범위를 검증하는 공통 입력 함수 추가
+*   551198d Merge: 퀴즈 풀이 기능을 main에 병합
+|\  
+| * 34e8e03 Feat: 퀴즈 풀이와 점수 계산 및 메뉴 연결 구현
+|/  
+* f08220f Feat: 영화 주제의 기본 퀴즈 5개 추가
+* 92aef8a Feat: Quiz 클래스와 문제 출력 및 정답 확인 구현
+* 69ca2d8 Feat: 메뉴 선택과 잘못된 입력 처리 및 종료 구현
+* 79c5279 Chore: 프로젝트 소개와 Git 제외 파일 설정
